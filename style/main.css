@@ -41,7 +41,7 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/capa-ncis.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/capa-ncis.jpg');
     height: 400px;
     background-size: cover;
 
@@ -51,10 +51,30 @@ header nav a:hover{
     align-items: flex-start;
 }
 
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
 .filme-principal .descricao{
+    margin-top: 10px;    
     margin-bottom: 40px;
 }
 
-.titulo{
-    font-size: 40px;
+.button{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: #FFF;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size-adjust: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
 }
+.button:hover{
+    background: #f0f0f0;
+    color: var(--preta);
+}
+
