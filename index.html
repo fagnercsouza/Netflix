@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <!-- css dos incone do font awesome-->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/resposividade.css">
 
@@ -15,14 +16,20 @@
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">GranFLIX</h2>
-            <nav>
+            <h2 class="logo">SUPERFLIX</h2>
+            <nav class="menuNav">
                 <a href="#">Inicio</a>
                 <a href="#">Séries</a>
                 <a href="#">Filmes</a>
                 <a href="#">Documentários</a>
-            </nav>    
+            </nav> 
         </div>
+        <input type="checkbox" id="menuHamb">
+        <label for="menuHamb">
+            <div class="menu">
+                <span class="hamburgue"></span>
+            </div>
+        </label>
     </header>
 
     <main>
@@ -80,8 +87,8 @@
             </div>
         </div>
     </section>
-
-
+    <!-- javascript dos incones do font awesome-->
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
 <script src="js/jquery.js"></script>
 <script src="js/carousel.js"></script>
 <script src="js/sutup.js"></script>

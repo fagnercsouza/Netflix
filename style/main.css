@@ -60,6 +60,7 @@ header nav a:hover{
 .filme-principal .descricao{
     margin-top: 10px;    
     margin-bottom: 40px;
+    width: 70%;
 }
 
 .button{
@@ -77,9 +78,21 @@ header nav a:hover{
     background: #f0f0f0;
     color: var(--preta);
 }
+.button i{
+    margin-right: 0.3rem;
+}
 
+.container {
+    margin-left: 25px;
+}
+/* .filme-principal .container{
+    width: 50%;
+} */
 .box-filme{
     height: 100%;
     width: 100%;
     display: block;
+}
+.item {
+    margin-top: 10px;
 }
