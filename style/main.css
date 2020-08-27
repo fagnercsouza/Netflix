@@ -78,3 +78,8 @@ header nav a:hover{
     color: var(--preta);
 }
 
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
