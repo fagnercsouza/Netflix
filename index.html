@@ -18,10 +18,10 @@
         <div class="container">
             <h2 class="logo">SUPERFLIX</h2>
             <nav class="menuNav">
-                <a href="#">Inicio</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
+                <a href="https://github.com/fagnercsouza" target="_Blanc">Inicio</a>
+                <a href="#films">Séries</a>
+                <a href="#films">Filmes</a>
+                <a href="#films">Documentários</a>
             </nav> 
         </div>
         <input type="checkbox" id="menuHamb">
@@ -38,11 +38,11 @@
                 <h3 class="titulo">NCIS: Investigação Naval</h3>
                 <p class="descricao">Sob o exemplar comando de Leroy Jethro Gibbs, uma equipe de agentes especiais investiga crimes relacionados com a Marinha dos Estados Unidos.</p>
                 <div class="buttons">
-                    <button role="button" class="button">
+                    <button role="button" class="button" onclick="play()">
                         <i class="fas fa-play"></i>
                         ASSISTIR AGORA
                     </button>
-                    <button role="button" class="button">
+                    <button role="button" class="button" onclick="linkedin()" >
                         <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÕES
                     </button>
@@ -50,7 +50,7 @@
             </div>
         </div>
     </main>
-    <section>
+    <section id="films">
         <div class="carousel-filmes">
             <div class="owl-carousel owl-theme" >
                 <div class="item">
@@ -92,6 +92,14 @@
 <script src="js/jquery.js"></script>
 <script src="js/carousel.js"></script>
 <script src="js/sutup.js"></script>
+<script>
+    function linkedin() {
+      window.location.assign("https://www.linkedin.com/in/fagner-souza/")
+    }
+    function play() {
+      window.location.assign("https://www.youtube.com/watch?v=smfOs59bL-E")
+    }
+</script>
 
 
 </body>
