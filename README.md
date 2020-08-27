@@ -1,3 +1,4 @@
+![Instagram - dark](./netflix.png)
 # Netflix
 - Projeto desenvolvido durante curso da Digital Innovation One, realizado com HTML, CSS e Javascript
 ## Página de apresentação
