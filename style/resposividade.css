@@ -33,6 +33,8 @@
         visibility: hidden;
     }
 }
+
+/*Menu amburgue*/
 .menu {
     /* background-color: #fff; */
     border-radius: 50%;
@@ -85,3 +87,4 @@
     bottom: 0;
     transform: rotate(-180deg);
 }
+

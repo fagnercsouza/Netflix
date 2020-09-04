@@ -1,0 +1,27 @@
+.menu-close{
+    position: absolute; 
+    text-align: right;
+    right: 0;
+    top: 30px;
+    width: 100%;
+    margin-top: 24px;
+    transform: translateY(-250px);
+    transition: transform 500ms linear;
+}
+
+.menu-open{
+    transform: translateY(0);
+    position: fixed;
+}
+
+.menu-item {
+    border-bottom: 1px solid brown;
+    background-color: rgba(0, 0, 0, .9);
+    padding: 15px 15px;
+}
+
+.menu-item-action {
+    color: brown;
+    font-size: 14px;
+    
+}

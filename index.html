@@ -7,6 +7,7 @@
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/resposividade.css">
+    <link rel="stylesheet" href="style/menuMobile.css">
 
     <!-- Carrosseu - Owl css-->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
@@ -24,12 +25,26 @@
                 <a href="#films">Documentários</a>
             </nav> 
         </div>
-        <input type="checkbox" id="menuHamb">
+        <input type="checkbox" value="on" id="menuHamb" class="btnMenu">
         <label for="menuHamb">
             <div class="menu">
                 <span class="hamburgue"></span>
             </div>
         </label>
+        <ul id="menuOpen" class="menu-close">
+            <li class="menu-item">
+                <a class="menu-item-action" href="https://github.com/fagnercsouza" target="_Blanc">Inicio</a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-item-action" href="#films">Séries</a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-item-action" href="#films">Filmes</a>
+            </li>
+            <li class="menu-item">
+                <a class="menu-item-action" href="#films">Documentários</a>
+            </li>
+        </ul>
     </header>
 
     <main>
@@ -100,7 +115,7 @@
       window.location.assign("https://www.youtube.com/watch?v=smfOs59bL-E")
     }
 </script>
-
+<script src="js/btnMenu.js"></script>
 
 </body>
 </html>
